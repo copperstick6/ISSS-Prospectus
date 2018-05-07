@@ -1,4 +1,5 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 $background_color: #202020;
 $event_color: #3399ff;
 $event_header_color: #ADD8E6;
@@ -18,7 +19,7 @@ html{
 body {
 	background-color: $background_color;
 	color: white;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-size:cover;
 
 }
@@ -28,7 +29,7 @@ body {
 }
 
 .headers{
-	padding-left:1.75cm;
+	padding-left:1.5cm;
 	margin-bottom: .25cm;
 }
 .main-text{
@@ -74,14 +75,14 @@ body {
 	float:left;
 	width:40%;
 	position:relative;
-	left:60%;
+	left:55%;
 	overflow:hidden;
 	color: $event_header_color;
 	text-align: center;
 }
 .col2 {
 	float:left;
-	width:45%;
+	width:43%;
 	position:relative;
 	left:60%;
 	overflow:hidden;
@@ -103,14 +104,16 @@ th {
 td {
     text-align: left;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid white;
+    line-height: 1.2;
 }
 #FAQ{
     page-break-before: always;
 }
 .Info{
-    padding-top:.25cm;
+    padding-top:.5cm;
     text-align: center;
     padding-left: 2cm;
     padding-right: 2cm;
