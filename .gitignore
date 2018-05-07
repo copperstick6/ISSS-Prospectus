@@ -1,2 +1,4 @@
 _temp.htm
 .DS_Store
+venv/
+delete_script.sh

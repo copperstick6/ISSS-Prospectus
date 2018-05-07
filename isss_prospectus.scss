@@ -1,7 +1,7 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css';
 $background_color: #202020;
 $event_color: #3399ff;
-$event_header_color: #99ff33;
+$event_header_color: #ADD8E6;
 @page {
   size: 8.5in 11in;
   -relaxed-page-width:  8.5in;
@@ -23,13 +23,13 @@ body {
 
 }
 #header{
-	margin-top: 1cm;
+	margin-top: .5cm;
 	font-weight: bold;
 }
 
 .headers{
 	padding-left:1.75cm;
-	margin-bottom: .75cm;
+	margin-bottom: .25cm;
 }
 .main-text{
 	img{
@@ -47,7 +47,8 @@ body {
 #Sponsor-header{
     page-break-before: always;
 	margin-top: 1cm;
-	margin-left: 1.5cm
+	margin-left: 1.5cm;
+    margin-bottom: .5cm;
 }
 
 #Event-header{
@@ -73,16 +74,16 @@ body {
 	float:left;
 	width:40%;
 	position:relative;
-	left:52%;
+	left:60%;
 	overflow:hidden;
 	color: $event_header_color;
 	text-align: center;
 }
 .col2 {
 	float:left;
-	width:46%;
+	width:45%;
 	position:relative;
-	left:56%;
+	left:60%;
 	overflow:hidden;
 }
 
@@ -119,4 +120,7 @@ td {
     padding-left:1.5cm;
     padding-right:1.5cm;
     page-break-after: always;
+}
+.EOP{
+    page-break-before: always;
 }
