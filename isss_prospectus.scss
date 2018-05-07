@@ -18,10 +18,12 @@ body {
 }
 .main-text{
 	img{
-		float: left;
-		margin: 0px 0px 0px 45px;
+		float: right;
+		margin: 10px 0px 45px 0px;
+		max-height: 250px;
+		max-width: 250px;
 	}
-	margin-right: 1.5cm;
+	margin-right: 1cm;
 	p{
 		margin-top:20px;
 		margin-left: 1.8cm;
