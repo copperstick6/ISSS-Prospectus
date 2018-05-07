@@ -2,13 +2,28 @@
 $background_color: #202020;
 $event_color: #3399ff;
 $event_header_color: #99ff33;
+@page {
+  size: 8.5in 11in;
+  -relaxed-page-width:  8.5in;
+  -relaxed-page-height: 11in;
+  background-color: $background_color;
+  background-size: cover;
+  color: $background_color;
+}
+html{
+	background-color: $background_color;
+	background-size: cover;
+
+}
 body {
-	background: $background_color;
+	background-color: $background_color;
 	color: white;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-size:cover;
+
 }
 #header{
-	padding-top: 1cm;
+	margin-top: 1cm;
 	font-weight: bold;
 }
 
@@ -29,7 +44,11 @@ body {
 		margin-left: 1.8cm;
 	}
 }
-
+#Sponsor-header{
+    page-break-before: always;
+	margin-top: 1cm;
+	margin-left: 1.5cm
+}
 
 #Event-header{
 	color: $event_color;
@@ -65,4 +84,27 @@ body {
 	position:relative;
 	left:56%;
 	overflow:hidden;
+}
+
+.Table{
+    margin-left: 1.5cm;
+    margin-right: 1.75cm;
+
+}
+table{
+    align: center;
+}
+th {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid white;
+}
+td {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+}
+#FAQ{
+    page-break-before: always;
 }
