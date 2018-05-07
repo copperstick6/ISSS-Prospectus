@@ -1,26 +1,13 @@
-h1 My document's title
-p A paragraph in my docume
+.headers
+    h1#header Information & Systems Security Society
+    h3 2018-2019 Sponsorship Guide
 
+.main-text
+    img(src='transparent.png')
+    :markdown-it(html=true)
+        The Information and Systems Security Society (ISSS) is a student run Computer Science organization  at  the  University  of  Texas  at Austin  dedicated  towards  instructing  students  on  the topics of computer security. Through our organization’s events, students are given exposure to both practical and theoretical attacks on real world systems, encouraging students to write better code, design better infrastructure, and defend their privacy and digital freedom in an increasingly connected world.
 
-template.header
-  span
+    
 
-template.footer
-  style(type='text/css').
-    .pdfheader {
-      font-size: 10px;
-      font-family: Helvetica;
-      font-weight: bold;
-      width: 1000px;
-      border-top: 1px solid black;
-      margin-left: 10%;
-      margin-right: 10%;
-      padding-top: 1mm;
-      margin-bottom: -1mm;
-      text-align: center;
-    }
-
-  .pdfheader Page #[span.pageNumber] / #[span.totalPages]
-  
 style
   include:scss isss_prospectus.scss

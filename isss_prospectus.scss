@@ -1,0 +1,23 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css';
+$background_color: #202020;
+body {
+	background: $background_color;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#header{
+	padding-top: 1cm;
+	font-weight: bold;
+}
+
+.headers{
+	padding-left:1cm;
+	margin-bottom: .5cm;
+}
+.main-text{
+	img{
+		float: left;
+		margin: 0px 0px 15px 15px;
+	}
+	margin-right: 2cm;
+}
