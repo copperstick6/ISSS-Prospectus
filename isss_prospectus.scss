@@ -1,5 +1,7 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css';
 $background_color: #202020;
+$event_color: #3399ff;
+$event_header_color: #99ff33;
 body {
 	background: $background_color;
 	color: white;
@@ -12,17 +14,52 @@ body {
 
 .headers{
 	padding-left:1cm;
-	margin-bottom: .5cm;
+	margin-bottom: .75cm;
 }
 .main-text{
 	img{
 		float: left;
-		margin: 0px 0px 0px 15px;
+		margin: 0px 0px 0px 45px;
 	}
-	margin-right: 1.25cm;
+	margin-right: 1.5cm;
+	p{
+		margin-top:20px;
+		margin-left: 1.8cm;
+	}
 }
-p{
-	margin-top:10px;
-	margin-left: 1cm;
-	margin-right: 1.75cm;
+
+
+#Event-header{
+	color: $event_color;
+	text-align: center;
+	margin-bottom: 20px;
+}
+/* Start of Column CSS */
+.container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+.container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
+}
+.col1 {
+	float:left;
+	width:40%;
+	position:relative;
+	left:52%;
+	overflow:hidden;
+	color: $event_header_color;
+	text-align: center;
+}
+.col2 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:56%;
+	overflow:hidden;
 }
