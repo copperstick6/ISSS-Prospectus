@@ -1,0 +1,26 @@
+h1 My document's title
+p A paragraph in my docume
+
+
+template.header
+  span
+
+template.footer
+  style(type='text/css').
+    .pdfheader {
+      font-size: 10px;
+      font-family: Helvetica;
+      font-weight: bold;
+      width: 1000px;
+      border-top: 1px solid black;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding-top: 1mm;
+      margin-bottom: -1mm;
+      text-align: center;
+    }
+
+  .pdfheader Page #[span.pageNumber] / #[span.totalPages]
+  
+style
+  include:scss isss_prospectus.scss
