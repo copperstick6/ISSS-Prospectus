@@ -1,5 +1,5 @@
 from PyPDF2 import PdfFileWriter, PdfFileReader
-pages_to_keep = [1, 2] # page numbering starts from 0
+pages_to_keep = [0, 1] # page numbering starts from 0
 infile = PdfFileReader('isss_prospectus.pdf', 'rb')
 output = PdfFileWriter()
 
